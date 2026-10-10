@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BhaktiPath - Pujya Acharya Indresh Upadhyay Ji</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fffaf0; /* Devotional off-white background */
+            color: #333;
+        }
+
+        /* Header & Navigation */
+        header {
+            background-color: #ff6f00; /* Traditional Saffron Accent */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 5px 0 0 0;
+            font-style: italic;
+        }
+
+        nav {
+            background-color: #e65100;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            background-color: #bf360c;
+            border-radius: 4px;
+        }
+
+        /* Hero / Introduction Section */
+        .hero {
+            background: linear-gradient(rgba(255, 235, 204, 0.9), rgba(255, 250, 240, 1));
+            padding: 50px 20px;
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .hero h2 {
+            color: #bf360c;
+        }
+
+        /* Schedule Container */
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        .section-title {
+            color: #e65100;
+            border-bottom: 2px solid #ff6f00;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Katha Cards Layout */
+        .katha-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #fff3e0;
+            border-left: 5px solid #ff6f00;
+            padding: 20px;
+            border-radius: 4px;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #bf360c;
+        }
+
+        /* Contact Details */
+        .contact-info {
+            text-align: center;
+            padding: 30px;
+            background: #ffe0b2;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #3e2723;
+            color: #d7ccc8;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Banner Header -->
+    <header>
+        <h1>BhaktiPath</h1>
+        <p>The Path of Devotion — Pujya Acharya Indresh Upadhyay Ji</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#about">About Ji</a>
+        <a href="#schedule">Katha Schedule</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Introduction -->
+    <section class="hero" id="about">
+        <h2>Radhe Radhe</h2>
+        <p>Welcome to the digital home of BhaktiPath. This platform connects devotees globally with the spiritual discourses, Shrimad Bhagwat Kathas, and traditional Bhajans led by Pujya Acharya Indresh Upadhyay Ji.</p>
+    </section>
+
+    <!-- Dynamic Events & Schedules -->
+    <div class="container" id="schedule">
+        <h2 class="section-title">Upcoming Katha Mahotsav Schedule</h2>
+        <div class="katha-grid">
+            
+            <div class="card">
+                <h3>Shrimad Bhagwat Katha</h3>
+                <p><strong>📍 Location:</strong> Vrindavan Dham, Uttar Pradesh</p>
+                <p><strong>📅 Timings:</strong> 4:00 PM – 8:00 PM Daily</p>
+            </div>
+
+            <div class="card">
+                <h3>Shri Hari Charcha</h3>
+                <p><strong>📍 Location:</strong> Mumbai, Maharashtra</p>
+                <p><strong>📅 Timings:</strong> Evening Slot</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Contact & Helpline Section -->
+    <div class="container" id="contact">
+        <div class="contact-info">
+            <h2>Connect for Katha Bookings & Queries</h2>
+            <p><strong>📞 Official Helplines:</strong> +91 70601-03330 | +91 70601-13330</p>
+            <p><strong>📧 Email:</strong> thebhaktipath@gmail.com</p>
+            <p>For live broadcasts and streaming, tune into the official channel on YouTube.</p>
+        </div>
+    </div>
+
+    <!-- Page Footer -->
+    <footer>
+        <p>© 2026 BhaktiPath Management. Devotional Portal. Jay Shree Krishna.</p>
+    </footer>
+
+</body>
+</html>

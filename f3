@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>[Your Name]</h1>
+            <p class="subtitle">Cloud & DevOps Engineer | Associate / Fresher</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>// Core Tech Stack</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Cloud & IaC</h3>
+                    <p>AWS (EC2, S3, IAM), Terraform</p>
+                </div>
+                <div class="card">
+                    <h3>Containers & Orchestration</h3>
+                    <p>Docker, Kubernetes (K8s)</p>
+                </div>
+                <div class="card">
+                    <h3>CI/CD & Automation</h3>
+                    <p>GitHub Actions, Linux/Bash Scripting</p>
+                </div>
+                <div class="card">
+                    <h3>Monitoring</h3>
+                    <p>Prometheus, Grafana</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- DevOps Projects Section -->
+        <section id="projects">
+            <h2>// Featured DevOps Implementations</h2>
+            
+            <!-- Project 1 -->
+            <div class="project-block">
+                <h3>1. Automated End-to-End CI/CD Pipeline</h3>
+                <p>Designed and built a declarative GitOps workflow that triggers on code changes, builds container images, and publishes them securely.</p>
+                <ul>
+                    <li><strong>Tools Used:</strong> GitHub Actions, Docker, Docker Hub, SonarQube</li>
+                    <li><strong>Outcome:</strong> Reduced manual deployment friction down to zero via full Git-triggered automation.</li>
+                </ul>
+                <a href="#" class="btn" target="_blank">View GitHub Repository</a>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-block">
+                <h3>2. Infrastructure as Code (IaC) Architecture</h3>
+                <p>Provisioned a modular, reusable AWS VPC environment using automated configuration management blueprints.</p>
+                <ul>
+                    <li><strong>Tools Used:</strong> Terraform, AWS (VPC, EC2, Route53)</li>
+                    <li><strong>Outcome:</strong> Allowed complete infrastructure rebuilds within minutes, eliminating manual configuration drift.</li>
+                </ul>
+                <a href="#" class="btn" target="_blank">View GitHub Repository</a>
+            </div>
+        </section>
+
+        <!-- Pipeline Status Section -->
+        <section id="telemetry">
+            <h2>// Live Site Telemetry</h2>
+            <div class="status-box">
+                <p>Deployment Automation: <span class="status-tag">GitHub Actions Active</span></p>
+                <p>Hosting Environment: <span class="status-tag">AWS S3 / GitHub Pages Static Tier</span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 [Your Name]. Engineered from scratch using absolute CI/CD automation.</p>
+    </footer>
+</body>
+</html>
